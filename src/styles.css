@@ -1,1 +1,9 @@
-/* Add application styles & imports to this file! */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  width: auto;
+  background-image: url("https://cdn.jsdelivr.net/gh/Paramaraj12/angular-counter@master/src/assets/image.jpg");
+  background-position: top;
+}
