@@ -10,7 +10,7 @@
 }
 
 /* button style */
-button {
+#resetButton {
   color: #fff;
   padding: 5px 25px;
   margin: 10px;
@@ -18,5 +18,25 @@ button {
   text-transform: uppercase;
   width: 300px;
   border-radius: 15px;
-  background-color: #ff00d4;
+  background-color: #b4991f;
+}
+#increaseButton {
+  color: #fff;
+  padding: 5px 25px;
+  margin: 10px;
+  font-size: 19px;
+  text-transform: uppercase;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #3d8c14;
+}
+#decreaseButton {
+  color: #fff;
+  padding: 5px 25px;
+  margin: 10px;
+  font-size: 19px;
+  text-transform: uppercase;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #b4241f;
 }

@@ -1,13 +1,11 @@
-
 <div class="container">
-<header>
-  <h1>Counter</h1>
-</header>
-<main>
-<h2>Current Count is : 0</h2>
-</main>
-<button>RESET COUNT</button>
-<button>INCREASE COUNT</button>
-<button>DECREASE COUNT</button>
+  <header>
+    <h1>{{title}}</h1>
+  </header>
+  <main>
+    <h2>Current Count is : {{count}}</h2>
+  </main>
+  <button id="resetButton" (click)="handleReset()">RESET COUNT</button>
+  <button id="increaseButton" (click)="handleIncrease()">INCREASE COUNT</button>
+  <button id="decreaseButton" (click)="handleDecrease()">DECREASE COUNT</button>
 </div>
-
